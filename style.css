@@ -1,0 +1,134 @@
+body{ /*Theme*/
+	background-color: #D0D0D0;
+	color: #303030;
+}
+
+a{text-decoration: none; color: black;}
+a:visited{text-decoration: none; color: black;}
+
+header{
+	text-align: center;
+}
+
+[class*="myName-"]{
+	font-size: 5em;
+	font-family: "Times New Roman", Times, serif;
+	position: relative;
+	top: 55px;
+}
+
+.myName-first{
+	color: white;
+	text-shadow: 0 0 4px black;
+}
+
+.myName-last{
+	color: black;
+	text-shadow: 0 0 4px white;
+}
+
+main{
+	
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 40px;
+}
+
+.contain-main{
+	background-color: #DFDFDF;
+	box-shadow: 2px 2px 2px gray;
+	border-radius: 10px;
+}
+
+.main-flex{	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: wrap; /*can be wrap-reverse or no-wrap*/
+	align-content: flex-start;
+}
+
+.main-item{
+	width: 500px;
+	margin: 20px;
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.Top{
+	height: ;
+	text-align: center;
+	text-size: 2.25em;
+}
+
+.flex-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: top;
+	flex-wrap: wrap; /*can be wrap-reverse or no-wrap*/
+	align-items: right;
+	align-content: center;
+}
+
+.Sidebar{
+	background-color: #DFDFDF;
+	height: 100%;
+	width: 200px;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.side-navtab{
+	background-color: #DFDFDF;
+	width: 50%;
+	padding: 20px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	text-align: center;
+}
+
+.side-navtab:hover{
+	background-color: #C0C0C0;
+	box-shadow: 2px 2px 2px gray;
+}
+
+.top-flex{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap; /*can be wrap-reverse or no-wrap*/
+	align-content: flex-start;
+}
+
+.Topbar{
+	height: 50px;
+	width: 100%;
+	border-bottom: 2px solid #A0A0A0;
+}
+
+.top-navtab{
+	margin-right:5px;
+	background-color: #DFDFDF;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5% 5% 0 0;
+	border: 2px solid #A0A0A0;
+}
+
+.current-navtab{
+	margin-right:5px;
+	background-color: #DFDFDF;
+	width: 100px;
+	height: 100%;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5% 5% 0 0;
+	border: 2px solid #A0A0A0;
+	border-bottom-color: #E0A0A0;
+	border-bottom-width: 4px;
+}
+
+.top-navtab:hover{
+	border-bottom: 4px solid cornflowerblue;
+}
