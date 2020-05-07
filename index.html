@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8"> <meta name="Author" content="Andrew Chen">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Home</title>
+		<title>About Me</title>
 		
 		<link rel="stylesheet" href="style.css"/>
 		
@@ -11,35 +11,24 @@
 	
 	
 	<body>
-		
-		<header>
-				<span class="myName-first">Andrew</span>
-				<span class="myName-last">Chen</span>
-		</header>
-		
-	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-		
-		<div class="top-flex Topbar">
-			<div class="current-navtab">About Me</div>
-			<div class="top-navtab"><a href="projects-page.html">Projects</a></div>
-			<div class="top-navtab">Contact</div>
-		</div>
-	
-	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-	
-	<!--
-		<div class="Sidebar flex-container">
-			<div class="side-navtab">Sample1</div>
-			<div class="side-navtab">Sample2</div>
-		</div>
-	-->	
-		<main>
-		
-			<div class="main-flex contain-main">
-				<div style="height: 350px; margin: 20px; width: 350px; border: 2px solid gray;">
-					<img src="placeholder.png" width="350px" alt="PLACEHOLDER IMAGE"/>
+		<div id="wrapper">
+			<div class="navFlex container-nav">
+				<div class="current-navtab"><a href="index.html">About Me</a></div>
+				<div class="top-navtab"><a href="projects-page.html">Projects</a></div>
+				<div class="top-navtab"><a href="contact.html">Contact</a></div>
+				<div class="container-title">
+					<span class="myName-first">Andrew</span>
+					<span class="myName-last">Chen</span>
 				</div>
-				<div class="main-item">
+			</div>
+	
+	<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+	
+			<div class="container-main mainFlex">
+				<div id="myImage">
+					<img src="placeholder.png" width="100%" alt="PLACEHOLDER IMAGE"/>
+				</div>
+				<div class="mainItem container">
 					TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 					TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 					TEXT TEXT TEXT TEXT TEXT TEXT TEXT
@@ -53,8 +42,6 @@
 				</div>
 			</div>
 			
-		</main>
-		
-		
+		</div>
 	</body>
 </html>
