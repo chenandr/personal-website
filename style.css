@@ -4,8 +4,8 @@
 }
 
 a{text-decoration: none; color: #606060; background-color: rgba(0,0,0,0);}
-a:visited{text-decoration: none; color: #606060;}
-
+a:visited{text-decoration: none; color: black;}
+/*#606060*/
 #wrapper{
 	text-align: left;
 	margin: auto;
@@ -16,6 +16,21 @@ a:visited{text-decoration: none; color: #606060;}
 	margin: 1%;
 	width: 20%;
 	border: 2px solid gray;
+}
+
+/*In the future could do a on hover event make larger*/
+#myVid{
+    margin: 0% 1% 1% 2%;
+    width: 18%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#ROVImage{
+	margin: 1%;
+	width: 15%;
+	border: 2px solid gray;
+    box-shadow: 1px 1px 1px gray;
 }
 
 #gitIcon{
@@ -46,6 +61,16 @@ a:visited{text-decoration: none; color: #606060;}
 	background-color: rgba(0,0,0,0);
 }
 
+/*
+.projectRowFlex{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-wrap: no-wrap;
+	align-content: flex-start;
+	align-items: flex-end;
+}
+*/
 
 /*NAVIGATION BAR*/
 
@@ -136,6 +161,9 @@ a:visited{text-decoration: none; color: #606060;}
 	border-radius: 10px;
 }
 
+.mainText{
+    margin:  1% 2.5% 1% 2.5%;
+}
 
 /*PROJECT PAGE BODY*/
 .projFlex{
@@ -159,6 +187,9 @@ a:visited{text-decoration: none; color: #606060;}
 	margin-top: -15px;
 }
 
+.projectText{
+    margin:  0% 2.5% 1% 2.5%;
+}
 
 /*FOOTER STUFF*/
 .footFlex{
